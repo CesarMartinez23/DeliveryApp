@@ -2,7 +2,7 @@ import { View, Text, TextInput } from "react-native";
 import React from "react";
 
 import * as Icon from "react-native-feather";
-import { themeColors } from "../theme/index";
+import { themeColors } from "../theme";
 
 export default function SearchBar() {
   return (
