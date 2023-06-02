@@ -3,18 +3,9 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Welcome to DeliveryApp !</Text>
+    <View className="flex-1 bg-white items-center justify-center">
+      <Text className="text-4xl text-orange-500">Welcome to DeliveryApp !</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
